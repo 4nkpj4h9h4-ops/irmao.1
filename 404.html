@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IRMAO, page introuvable</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' role='img' aria-label='IRMAO'> <rect width='32' height='32' rx='9' fill='%232A1A12'/> <circle cx='12.2' cy='19.2' r='6.9' fill='%23F3EEE4'/> <circle cx='20.3' cy='13.4' r='7.6' fill='%232A1A12'/> <circle cx='20.3' cy='13.4' r='6.3' fill='%23F3EEE4'/> <circle cx='20.3' cy='13.4' r='2.6' fill='%23B4552F'/> </svg>">
+<link rel="apple-touch-icon" href="icone.png">
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300..500&family=Figtree:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F3EEE4;--sand:#E1D4BD;--sand-2:#EEE7DA;--ink:#2A1A12;--ink-soft:#5B463B;--white:#FDFBF7}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh;display:grid;place-items:center;background:var(--cream);color:var(--ink);
+  font-family:Figtree,ui-sans-serif,system-ui,sans-serif;padding:2rem;overflow:hidden;position:relative}
+.bg{position:fixed;inset:-20vh -10vw;z-index:0;pointer-events:none}
+.bg b{position:absolute;display:block;border-radius:50%;filter:blur(52px);opacity:.85;background:var(--sand)}
+.bg b:nth-child(1){width:80vw;height:44vw;left:-16vw;top:6vh;transform:rotate(-22deg)}
+.bg b:nth-child(2){width:62vw;height:30vw;right:-14vw;top:52vh;background:var(--sand-2);transform:rotate(20deg)}
+main{position:relative;z-index:1;text-align:center;max-width:36rem}
+.n{font-family:"Shantell Sans",cursive;font-size:clamp(5rem,20vw,11rem);line-height:.9;margin:0}
+h1{font-family:"Shantell Sans",cursive;font-weight:400;font-size:clamp(1.5rem,4.5vw,2.4rem);margin:.6rem 0 0}
+p{color:var(--ink-soft);margin:1.1rem 0 0;line-height:1.65}
+.row{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;margin-top:2rem}
+a{display:inline-flex;align-items:center;padding:.86em 1.6em;border-radius:999px;text-decoration:none;
+  font-size:.95rem;font-weight:500;transition:transform .45s cubic-bezier(.22,.61,.36,1)}
+a:hover{transform:translateY(-3px)}
+.d{background:var(--ink);color:var(--white);box-shadow:0 10px 22px -8px rgba(42,26,18,.55)}
+.l{background:var(--white);color:var(--ink);box-shadow:0 10px 22px -12px rgba(42,26,18,.45)}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><b></b><b></b></div>
+<main>
+  <p class="n">404</p>
+  <h1>Cette assiette est déjà partie</h1>
+  <p>La page que vous cherchez n'existe pas, ou plus. Le comptoir, lui, est toujours au 112 avenue de la République.</p>
+  <div class="row">
+    <a class="d" href="/">Retour à l'accueil</a>
+    <a class="l" href="tel:+33472180131">04 72 18 01 31</a>
+  </div>
+</main>
+</body>
+</html>
